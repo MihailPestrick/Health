@@ -70,7 +70,6 @@ nav a:hover {
 	border-radius: 20px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 	text-align: center;
-	font-family: "my";
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .font {
@@ -164,7 +163,6 @@ footer .text {
 	border-radius: 20px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 	text-align: center;
-	font-family: "my";
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .sleep {
@@ -188,4 +186,54 @@ footer .text {
 }
 .smalltext {
 	font-size: 15px;
+}
+.stress {
+	margin-top: 20px;
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 28% 52% 20%;
+	gap: 20px;
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.stressimg {
+	width: 310x;
+	height: 200px;
+}
+
+.stress img {
+	width: 100%;
+	height: 100%;
+}
+.tip {
+	margin-top: 20px;
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 80% 20%;
+	gap: 20px;
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.opravdania {
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 45%;
+	padding: 20px;
+}
+#ten {
+	display: grid;
+	grid-template-columns: 35% 10%;
+	grid-template-rows: 100%;
+}
+#smallbutton {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
 }
